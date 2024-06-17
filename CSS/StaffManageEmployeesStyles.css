@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:500");
+
+.TitleTxt{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+.paginationNav{
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0.9rem;
+}
+
+.limitSelect{
+    width: auto;
+    margin: 0;
+}
+
+.limitSelectForm{
+    margin-bottom: 2rem;
+}
+
+table{
+    table-layout: auto;
+}
+
+td, th{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.btn-info{
+    color: white;
+}
+
+.btn-danger:hover{
+    color: orange;
+}
+
+textarea{
+    height:auto;
+    width:100%;
+    max-width: 100%;
+}
+
+.flexer{
+    display: flex;
+    justify-content: center;
+}
+
+.customselectpicker{
+    width: fit-content;
+}

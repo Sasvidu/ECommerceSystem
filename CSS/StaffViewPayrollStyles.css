@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:500");
+
+.TitleTxt{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+.paginationNav{
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0.9rem;
+}
+
+.limitSelect{
+    width: auto;
+    margin: 0;
+}
+
+table{
+    table-layout: auto;
+}
+
+td, th{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.btn-info{
+    color: white;
+}
+
+textarea{
+    height:auto;
+    width:100%;
+    max-width: 100%;
+}
+
+.flexer{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-danger{
+    width:80% !important;
+}
+
+.btn-half-success{
+    background-color:#00C851;
+    border-color: #00C851;
+    color: white;
+    width:80%;
+}
+
+.btn-half-success:hover{
+    background-color:#06b84d;
+    border-color: #06b84d;
+    color: white;
+}
+
+.th-sm{
+    text-align: center;
+}

@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+.flexer{
+    display: flex;
+    justify-content: center;
+}
+
+.primaryCard{
+    border-left: #4e73df solid 0.3rem;
+    font-family: nunito;
+    font-weight: 900;
+    color: #4e73df;
+    height: 4rem;
+}
+
+.successCard{
+    border-left: #1cc88a solid 0.3rem;
+    font-family: nunito;
+    font-weight: 900;
+    color: #1cc88a;
+    height: 4rem;
+}
+
+.infoCard{
+    border-left: #36b9cc solid 0.3rem;
+    font-family: nunito;
+    font-weight: 900;
+    color: #36b9cc;
+    height: 4rem;
+}
+
+.warningCard{
+    border-left: #f6c23e solid 0.3rem;
+    font-family: nunito;
+    font-weight: 900;
+    color: #f6c23e;
+    height: 4rem;
+}
+
+.dangerCard{
+    border-left: #e74a3b solid 0.3rem;
+    font-family: nunito;
+    font-weight: 900;
+    color: #e74a3b;
+    height: 4rem;
+}
+
+.dashboardCard{
+    font-family: nunito;
+    font-size: 14px;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.cardIcon{
+    position: absolute;
+    right: 1.5rem;
+    top: 32%;
+    font-size: 30px;
+}
+
+.dashboardCardRow{
+    display: flex;
+    justify-content: space-around;
+}
+
+.dataText{
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    color: black;
+}
+
+.ttImg{
+    height: 17px;
+    width: 17px;
+    position: absolute;
+    top: 21%;
+}
+
+.profilePanel{
+    margin-left: 1rem;
+}
+
+.panelModules{
+    height: 25rem;
+    width: 45.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.panelModule{
+    background-color: #52c7da;
+    border-radius: 1rem;
+    width: 10rem;
+    height: 10rem;
+    margin: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.moduleImage{
+    max-width: 6rem;
+    max-height: 6rem;
+}
+
+.moduleIcon{
+    font-size: 6rem;
+    color: white;
+}
+
+.moduleIcon2{
+    font-size: 5rem;
+    color: white;
+}
+
+.moduleText{
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    bottom: 1.2rem;
+    left: 2.7rem;
+    color: white;
+}
+
+.moduleTextEmp{
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    bottom: 1.2rem;
+    left: 2rem;
+    color: white;
+}
+
+.moduleTextUser{
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    bottom: 1.2rem;
+    left: 3.6rem;
+    color: white;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.styledText{
+    font-family: "Montserrat", sans-serif;
+}
+
+.messsagePanel{
+    box-shadow: 0 0 0.1rem grey;
+    border-radius: 0.5rem;
+    height: 4rem;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 5px;
+    padding-left: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.messageAccordion{
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+}
+
+.messageText{
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+}
+
+.btn-success{
+    color: #1cc88a;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#imageHolder{
+    display: flex;
+    justify-content: center;
+}
+
+#UserImage{
+    height: 226px;
+    width: 226px;
+    align-self: flex-start;
+    justify-self: center;
+    border: 2px solid rgb(220, 214, 214);
+}

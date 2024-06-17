@@ -1,0 +1,60 @@
+.panel{
+    box-shadow: 0 0 1px 1px rgb(220, 214, 214); 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px; 
+}
+
+.flexer{
+   display: flex;
+   align-items: center;
+}
+
+#imageHolder{
+    display: flex;
+    justify-content: center;
+}
+
+#UserImage{
+    height: 200px;
+    width: 200px;
+    align-self: flex-start;
+    justify-self: center;
+    border: 2px solid rgb(220, 214, 214);
+}
+
+.font-change{
+    font-family: "Montserrat", sans-serif;
+}
+
+.widgetdiv{
+    background-color:aliceblue;
+}
+
+.componentdiv{
+    background-color: white;
+    font-family: "Montserrat", sans-serif;
+    padding: 25px;
+}
+
+.btn-half-primary{
+    background-color:white;
+    border-color: rgba(23, 23, 197, 0.93);
+    color: rgba(23, 23, 197, 0.93);
+    transition: 0.3s;
+}
+
+.btn-half-primary:hover{
+    background-color:blue;
+    border-color: blue;
+    color: white;
+}
+
+.btn-half-success{
+    background-color:#00C851;
+    border-color: #00C851;
+    color: white;
+    transition: 0.3s;
+}
+

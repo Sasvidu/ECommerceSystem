@@ -1,0 +1,8 @@
+CSS reset stylesheet
+
+Logo Blue colout is in header
+
+Try utiize emptyInput classes
+
+
+- Make a telephone check in new supplier

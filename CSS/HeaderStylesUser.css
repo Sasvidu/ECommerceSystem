@@ -1,0 +1,60 @@
+/*Nav bar*/
+
+#shoppingCart{
+
+    font-size: 30px;
+    margin-top: 7%;
+    transition: 0.3s ease 0s;
+
+}
+
+#shoppingCart:hover{
+
+    color: #00BFFF;
+
+}
+
+#shoppingCartDiv{
+
+    border-left: 2px solid grey;
+
+}
+
+#imageHolderNav{
+
+    border-radius: 50%;
+    height: 2em;
+    width: 2em;
+    background-color: black;
+
+}
+
+#UserImageNav{
+
+    max-width: auto;
+    max-height: auto;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+
+}
+
+#cartCount{
+
+    padding-left: 1%;
+    padding-right: 1%;
+    font-family: "Montserrat", sans-serif;
+    font-size: larger;
+    background: rgb(199, 196, 196);
+    border-radius: 3rem;
+    position: absolute;
+    top: 29%;
+    left: 88%;
+    color: blue;
+
+}
+
+#cart-link{
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:500");
+
+*{
+    font-family: "Montserrat", sans-serif;
+}
+
+.panel{
+    box-shadow: 0 0 3.75rem -2rem grey;
+    border: 2px solid blue; 
+    border-radius: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px; 
+    background-color: white;
+}
+
+.noMargin{
+    margin: 0;
+}
+
+label{
+    font-style: oblique;
+}
+
+.flexer{
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+#password{
+    outline: none;
+    padding-right: 11%;
+}
+
+#eye-icon{
+    position: absolute;
+    top: 58%;
+    right: 6.5%;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+#passwordHelper{
+    text-decoration: none;
+    color: #007E33;
+}
+
+#passwordHelper:hover{
+    text-decoration: underline;
+    color: #007E33;
+}
+
+#linker{
+    text-decoration: none;
+    color: #00C851;
+}
+
+#linker:hover{
+    text-decoration: underline;
+    color: #007E33;
+}
+
+.emptyInput{
+    border: solid 2px red;
+}
+
+.emptyLabel{
+    color: red;
+}
+
+.bold{
+    font-weight: 500;
+}
+
+.txtbox{
+    text-align: center;
+}
+
+.btn-block{
+    width: 100%;
+}

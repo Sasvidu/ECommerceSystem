@@ -1,0 +1,27 @@
+Product - Id, Category(CPU), Brand, Name (i7), Price, Status(For deletion) 
+
+Optional Category and Brand
+
+Stock - Id, Product_id, maximum quantity, reoreder quantity, current quantity, Status(for deletion)
+
+Order (Invoice) - Id, date, product_id, quantity, payment, supplier_id,l status
+
+Payment - Id, date, Order_id +[Supplier Id]
+
+Supplier - Id, name, location, pending payment, status
+
+Supplier Contact - id, type, value, suppli_id, status
+
+Sale - Id, date, product_id, quantity, total, Customer_id(same from user)
+
+
+
+Staff - Id, FName, LName, Address, DOB, NIC, Image, Job_Id, Email1, Email2, Tel1, Tel2, Status
+
+Job - Id, Level, Name, Department, Salary, OT(per hour), Job_status
+
+Do I need this if no need to mark attendance - Attendance - StaffId, Date, Attended
+
+WorkRecord - StaffId, Year, Month, AttendedDays, OTHours, Amount (Salary + OTHours *OT) provided that 
+
+

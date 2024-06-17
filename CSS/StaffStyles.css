@@ -1,0 +1,224 @@
+.panel{
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 3.75rem -2rem grey;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.panelJob{
+    background-color: blueviolet;
+    box-shadow: 0 0 3.75rem -2rem grey;
+}
+
+.panelJob2{
+    background-color: lavender;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.panelProfile{
+    background-color: lavender;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.panelEmp{
+    background-color: blue;
+    box-shadow: 0 0 3.75rem -2rem grey;
+}
+
+.panelEmp2{
+    background-color: azure;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.panelPayroll{
+    background-color: red;
+    box-shadow: 0 0 3.75rem -2rem grey;
+}
+
+.panelPayroll2{
+    background-color: bisque;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    box-shadow: 0 0 3.75rem -2rem grey;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.panel-row{
+    text-align: justify;
+    padding-right: 3rem;
+    padding-top: 1rem;
+}
+
+.panel-row2{
+    padding-right: 3rem;
+}
+
+.panelBtnHolder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.btn-half-primary{
+    background-color:white;
+    border-color: rgba(23, 23, 197, 0.93);
+    color: rgba(23, 23, 197, 0.93);
+    transition: 0.3s;
+}
+
+.btn-half-primary:hover{
+    background-color:blue;
+    border-color: blue;
+    color: white;
+}
+
+
+
+.btn-half-emp{
+    background-color:white;
+    border-color: blueviolet;
+    color: blueviolet;
+    transition: 0.5s;
+}
+
+.btn-half-emp:hover{
+    background-color:blueviolet;
+    border-color: white;
+    color: lavender;
+    border-radius: 1rem;
+}
+
+
+.btn-emp{
+    background-color:blueviolet;
+    border-color: blueviolet;
+    color: lavender;
+    transition: 0.5s;
+}
+
+.btn-emp:hover{
+    background-color:blueviolet;
+    border-color: white;
+    color: white;
+    border-radius: 1rem;
+}
+
+
+
+.btn-half-job{
+    background-color:white;
+    border-color: blue;
+    color: blue;
+    transition: 0.5s;
+}
+
+.btn-half-job:hover{
+    background-color:blue;
+    border-color: white;
+    color: azure;
+    border-radius: 1rem;
+}
+
+
+.btn-job{
+    background-color:blue;
+    border-color: blue;
+    color: azure;
+    transition: 0.5s;
+}
+
+.btn-job:hover{
+    background-color:blue;
+    border-color: white;
+    color: white;
+    transition: 0.5s;
+    border-radius: 1rem;
+}
+
+
+
+.btn-half-payroll{
+    background-color:white;
+    border-color: red;
+    color: red;
+    transition: 0.5s;
+}
+
+.btn-half-payroll:hover{
+    background-color:red;
+    border-color: white;
+    color: bisque;
+    border-radius: 1rem;
+}
+
+
+.btn-payroll{
+    background-color:red;
+    border-color: red;
+    color: bisque;
+    transition: 0.3s;
+    border-radius: 1rem;
+}
+
+.btn-payroll:hover{
+    background-color:red;
+    border-color: white;
+    color: bisque;
+    transition: 0.5s;
+}
+
+
+.btn-half-success{
+    background-color:#00C851;
+    border-color: #00C851;
+    color: white;
+}
+
+
+#UserImage{
+    height: 200px;
+    width: 200px;
+    align-self: flex-start;
+    justify-self: center;
+    border: 2px solid rgb(220, 214, 214);
+}
+
+.flexer{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-salary{
+    border-color: #00C851;
+    background-color: white;
+    color: #00C851;
+}
+
+.btn-salary:hover{
+    border-color: #00C851;
+    background-color: #00C851;
+    color: white;
+    border-radius: 1rem;
+    transition: 0.5s;
+}
+
+.customselectpicker{
+    width: fit-content;
+}

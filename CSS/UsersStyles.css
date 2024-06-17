@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+a{
+    text-decoration: none;
+}
+
+.profileCard{
+    border-left: #4e73df solid 0.3rem;
+    font-family: nunito;
+    font-weight: 900;
+    color: #4e73df;
+    height: 4rem;
+}
+
+.profileCard:hover{
+    transition: 0.3s;
+    background-color: #4e73df;
+    color: white;
+}
+
+.passwordCard{
+    border-left: #1cc88a solid 0.3rem;
+    font-family: nunito;
+    font-weight: 900;
+    color: #1cc88a;
+    height: 4rem;
+}
+
+.passwordCard:hover{
+    transition: 0.3s;
+    background-color: #1cc88a;
+    color: white;
+}
+
+.addCard{
+    border-left: #36b9cc solid 0.3rem;
+    font-family: nunito;
+    font-weight: 900;
+    color: #36b9cc;
+    height: 4rem;
+}
+
+.addCard:hover{
+    transition: 0.3s;
+    background-color: #36b9cc;
+    color: white;
+}
+
+.editCard{
+    border-left: #f6c23e solid 0.3rem;
+    font-family: nunito;
+    font-weight: 900;
+    color: #f6c23e;
+    height: 4rem;
+}
+
+.editCard:hover{
+    transition: 0.3s;
+    background-color: #f6c23e;
+    color: white;
+}
+
+.panelProfile{
+    padding: 0.75rem;
+    border-radius: 0.3rem;
+    background-color: #4e73df;
+}
+
+.panelPassword{
+    padding: 0.75rem;
+    border-radius: 0.3rem;
+    background-color: #1cc88a;
+}
+
+.panelAdd{
+    padding: 0.75rem;
+    border-radius: 0.3rem;
+    background-color: #36b9cc;
+}
+
+.panelEdit{
+    padding: 0.75rem;
+    border-radius: 0.3rem;
+    background-color: #f6c23e;
+}
+
+.panel2{
+    padding: 2rem;
+    border-radius: 0.3rem;
+    font-family:"Montserrat", sans-serif;
+    font-weight: 100;
+    background-color: white;
+}
+
+label{
+    font-weight: 300;
+}
+
+h2{
+    text-align: center;
+}
+
+#UserImage{
+    max-height: 170px;
+    height: auto;
+    width: auto;
+    align-self: flex-start;
+    justify-self: center;
+    border: 2px solid rgb(220, 214, 214);
+}
+
+.flexer{
+    display: flex;
+    justify-content: center;
+}
+
+.cardIcon{
+    position: absolute;
+    top: 32%;
+    right: 7%;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+#ImageChooser{
+    margin-top: 0.5%;
+}
+
+.btn-primary{
+    color: white;
+    background-color: #4e73df;
+    border: #4e73df solid 1px;
+}
+
+.btn-success{
+    color: white;
+    background-color: #1cc88a;
+    border: #1cc88a solid 1px;
+}
+
+.btn-info{
+    color: white;
+    background-color: #36b9cc;
+    border: #36b9cc solid 1px;
+}
+
+.btn-info:hover{
+    color: white;
+    background-color: #288f9f;
+    border: #288f9f solid 1px;
+}
+
+.btn-warning{
+    color: white;
+    background-color: #f6c23e;
+    border: #f6c23e solid 1px;
+}
+
+.btn-warning:hover{
+    color: white;
+    background-color: #d4a733;
+    border: #d4a733 solid 1px;
+}
+
+#eye-icon1{
+    position: absolute;
+    top: 18%;
+    right: 7%;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+#eye-icon2{
+    position: absolute;
+    top: 62%;
+    right: 7%;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+#eye-icon3{
+    position: absolute;
+    top: 54%;
+    right: 7%;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+#eye-icon4{
+    position: absolute;
+    top: 18%;
+    right: 7%;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+#eye-icon5{
+    position: absolute;
+    top: 62%;
+    right: 7%;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+#eye-icon6{
+    position: absolute;
+    top: 35.5%;
+    right: 6%;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+#eye-icon7{
+    position: absolute;
+    top: 60.5%;
+    right: 6%;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+.flexaligner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:"Montserrat", sans-serif;
+}

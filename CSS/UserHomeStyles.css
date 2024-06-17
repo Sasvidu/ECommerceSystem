@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+
+*{
+    overflow-x: hidden;  
+}
+
+.body{
+
+    background-color: black;
+
+}
+
+.flexer{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+/*Opening section*/
+
+#intro-panel{
+
+    background-image: url("../Commons/Images/UserHomeImg3.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+    position: relative;
+
+}
+
+#message{
+
+    position: absolute;
+    font-family: 'Work Sans', sans-serif;
+    top: 40%;
+    left: 12%;
+
+}
+
+#messageContent{
+   
+    font-size: 64px;
+
+}
+
+/* Scroll down button: */
+
+
+/* Shop accessories */
+
+#title{
+
+    font-family:"Montserrat", sans-serif;
+    font-weight: bolder;
+    border-bottom: 5px solid blue;
+    border-radius: 5px;
+
+}
+
+/*Filters*/
+
+#FiltersTxt{
+    font-family: "Montserrat", sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+#FiltersDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#isStockAvailableDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Products */
+
+.product{
+    
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+}
+
+.productImage{
+
+    max-height: auto;
+    max-width: auto;
+    width: auto;
+
+}
+
+.card-title{
+
+    text-align: center;
+
+}
+
+.card-text{
+
+    text-align: center;
+    font-weight: 500;
+    font-size: larger;
+    
+}
+
+.cardBtn{
+
+    align-self: flex-end;
+    justify-self: center;
+
+}
+
+.card-footer{
+    background-color: white;
+    border-top: none;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/*
+.card:hover{
+
+    transition: 0.5s;
+    box-shadow: 0 0 1rem;
+
+}
+*/
+
+
+/*Pagination*/
+
+.page-item{
+
+    border: none;
+    color: black;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+
+}
+
+.page-link{
+
+    color: black;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+
+}
+
+.page-link:hover{
+
+    color: black;
+
+}
+
+.page-item.active .page-link{
+
+    background-color: black;
+    border-color: black;
+    color: white;
+
+}

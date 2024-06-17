@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+a{
+    text-decoration: none;
+}
+
+.panel{
+    box-shadow: 0 0 1px 1px rgb(220, 214, 214); 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px; 
+}
+
+.flexer{
+   display: flex;
+   justify-content: center;
+}
+
+#imageHolder{
+    display: flex;
+    justify-content: center;
+}
+
+#UserImage{
+    height: 200px;
+    width: 200px;
+    align-self: flex-start;
+    justify-self: center;
+    border: 2px solid rgb(220, 214, 214);
+}
+
+.IconImage{
+    font-size: 4rem;
+    width: auto;
+    align-self: center;
+    justify-self: center;
+}
+
+.cardText{
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.3rem;
+}
+
+.scheduleCard{
+    border-top: #4e73df solid 0.3rem;
+    border-bottom: #4e73df solid 0.3rem;
+    font-family: nunito;
+    font-weight: 900;
+    color: #4e73df;
+    height: 15rem;
+}
+
+.scheduleCard:hover{
+    transition: 0.3s;
+    background-color: #4e73df;
+    color: white;
+}
+
+.allocateCard{
+    border-top: #1cc88a solid 0.3rem;
+    border-bottom: #1cc88a solid 0.3rem;
+    font-family: nunito;
+    font-weight: 900;
+    color: #1cc88a;
+    height: 15rem;
+}
+
+.allocateCard:hover{
+    transition: 0.3s;
+    background-color: #1cc88a;
+    color: white;
+}
+
+.agentCard{
+    border-top: #8c7dbb solid 0.3rem;
+    border-bottom: #8c7dbb solid 0.3rem;
+    font-family: nunito;
+    font-weight: 900;
+    color: #8c7dbb;
+    height: 15rem;
+}
+
+.agentCard:hover{
+    transition: 0.3s;
+    background-color: #8c7dbb;
+    color: white;
+}
+
+.viewCard{
+    border-top: #36b9cc solid 0.3rem;
+    border-bottom: #36b9cc solid 0.3rem;
+    font-family: nunito;
+    font-weight: 900;
+    color: #36b9cc;
+    height: 15rem;
+}
+
+.viewCard:hover{
+    transition: 0.3s;
+    background-color: #36b9cc;
+    color: white;
+}
+
+.font-change{
+    font-family: "Montserrat", sans-serif;
+}
+
+.widgetdiv{
+    background-color:aliceblue;
+}
+
+.componentdiv{
+    background-color: white;
+    font-family: "Montserrat", sans-serif;
+    padding: 25px;
+}
+
+.btn-half-primary{
+    background-color:white;
+    border-color: rgba(23, 23, 197, 0.93);
+    color: rgba(23, 23, 197, 0.93);
+    transition: 0.3s;
+}
+
+.btn-half-primary:hover{
+    background-color:blue;
+    border-color: blue;
+    color: white;
+}
+
+.btn-half-success{
+    background-color:#00C851;
+    border-color: #00C851;
+    color: white;
+    transition: 0.3s;
+}
+

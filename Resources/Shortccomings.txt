@@ -1,0 +1,15 @@
+Inventory cannot access modals when all stocks created
+
+Staff message about payroll being updated doesn't display
+
+Put a search box for manage employees and payroll.
+
+Pagination:
+
+Refer to product manage
+
+Update the count query with status = 1 o unwwanted stuff wont be counted
+Update the previous and next button to support disabled
+#Action width : 5% set in css
+Add the message catcher - This is done already
+Search

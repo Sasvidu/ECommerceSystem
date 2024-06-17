@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:500");
+
+.TitleTxt{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+.paginationNav{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.searchbar{
+    position: absolute;
+    top:27%;
+    right: 7%;
+}
+
+table{
+    table-layout: auto;
+}
+
+td, th{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.btn-info{
+    color: white;
+}
+
+.btn-danger:hover{
+    color: orange;
+}
+
+.btn-action{
+    width: 100%;
+    height: 100%;
+}
+
+.btn-half-success{
+    background-color:#00C851;
+    border-color: #00C851;
+    color: white;
+    transition: 0.3s;
+    position: absolute;
+    top:27%;
+    left: 44%;
+}
+
+.btn-info{
+    color: white;
+}
+
+.btn-status{
+    color: white;
+    width: 100%;
+}
+
+.btn-status:hover{
+    color: white;
+    color: darken;
+}
+
+#Action{
+    width: 5%;
+}
+
+#Status{
+    width: 5%;
+}
+
+#dispatchModalText{
+    font-size: 12px;
+}
